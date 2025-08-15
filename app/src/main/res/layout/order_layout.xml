@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.material.card.MaterialCardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="16dp"
+    android:layout_marginStart="16dp"
+    android:layout_marginEnd="16dp">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="16dp">
+        <ImageView
+            android:id="@+id/customer_image"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:src="@drawable/orders_icon_27"/>
+        <TextView
+            android:id="@+id/customer_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toEndOf="@id/customer_image"
+            android:layout_marginStart="16dp"
+            android:text="Manish Singla"
+            style="@style/TextAppearance.AppCompat.Title"/>
+        <TextView
+            android:id="@+id/order_date"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true" />
+        <TextView
+            android:id="@+id/customer_address"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/customer_name"
+            android:layout_toEndOf="@id/customer_image"
+            android:text="Ashiana Greens Ahinsa Khand 2"
+            style="@style/TextAppearance.AppCompat.Body1"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="8dp" />
+        <TextView
+            android:id="@+id/text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toEndOf="@id/customer_image"
+            android:layout_below="@id/customer_address"
+            android:text="@string/status"
+            android:layout_marginStart="16dp"
+            style="@style/TextAppearance.MaterialComponents.Subtitle1"/>
+        <TextView
+            android:id="@+id/order_status"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="new"
+            android:layout_toEndOf="@id/text"
+            android:layout_below="@id/customer_address"
+            style="@style/TextAppearance.MaterialComponents.Subtitle1"/>
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_below="@id/order_status"
+            android:src="@drawable/ic_edit_24px"/>
+        <TextView
+            android:id="@+id/text1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/text"
+            android:layout_toEndOf="@id/customer_image"
+            android:layout_marginStart="16dp"
+            android:text="@string/price"
+            style="@style/TextAppearance.AppCompat.Body1"
+            android:layout_marginTop="16dp" />
+        <TextView
+            android:id="@+id/total_amount"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/order_status"
+            android:layout_toEndOf="@id/text1"
+            android:layout_marginTop="16dp"
+            style="@style/TextAppearance.AppCompat.Body2"/>
+    </RelativeLayout>
+</com.google.android.material.card.MaterialCardView>

@@ -1,0 +1,54 @@
+<resources>
+    <string name="app_name" translatable="false">SabjiWala(Shopkeeper)</string>
+    <string name="navigation_drawer_open" translatable="false">Open navigation drawer</string>
+    <string name="navigation_drawer_close" translatable="false">Close navigation drawer</string>
+    <string name="menu_logout">Log Out</string>
+    <string name="divider_bullet" translatable="false">•</string>
+    <string name="ShopName" translatable="false">SabjiWala(Shopkeeper)</string>
+    <string name="google_maps_key" templateMergeStrategy="preserve">YOUR_KEY_HERE</string>
+    <string name="privacy_policy"><u>Privacy Policy</u></string>
+    <string name="terms_of_service"><u>Terms of Service</u></string>
+    <string name="rupee_symbol" translatable="false">₹</string>
+    <string name="current_orders">Current Orders</string>
+    <string name="order_history">Order History</string>
+    <string name="update">Update</string>
+    <string name="your_app_version_has_expired_please_update_it">Your app version has expired please update it!</string>
+    <string name="shop_name">Shop name</string>
+    <string name="owner_name">Owner name</string>
+    <string name="shop_address">Shop Address</string>
+    <string name="radius_supplied">Radius Supplied:</string>
+    <string name="account_settings">Account Settings</string>
+    <string name="details">Details</string>
+    <string name="meters">meters</string>
+    <string name="authenticate_your_phone_number">Authenticate your phone number</string>
+    <string name="to_continue_at_your_sabji_wala">to continue at My Sabji Wala</string>
+    <string name="enter_your_phone_number">Enter your phone number</string>
+    <string name="verify_phone_number">VERIFY PHONE NUMBER</string>
+    <string name="by_tapping_verify_phone_number_an_sms_will_be_sent_for_verification">By tapping "VERIFY PHONE NUMBER", an SMS will be sent for verification.</string>
+    <string name="customer_s_name">Customers Name:</string>
+    <string name="delivery_address">Delivery Address:</string>
+    <string name="total_amount">Total Amount:</string>
+    <string name="order_status">Order Status :</string>
+    <string name="vegetables">Vegetables</string>
+    <string name="order_cannot_be_delivered">Order cannot be delivered</string>
+    <string name="order_ready">Order Ready</string>
+    <string name="shipped">Shipped</string>
+    <string name="register">Register</string>
+    <string name="one_time_password">ONE TIME PASSWORD</string>
+    <string name="please_enter_6_digit_verfication_code_sent_by_sms_on_your_mobile_phone">Please enter 6-digit verification code sent by SMS on your mobile phone</string>
+    <string name="submit">जमा</string>
+    <string name="resend_otp">RESEND OTP</string>
+    <string name="_0_00" translatable="false">0:00</string>
+    <string name="order_date">Order date:</string>
+    <string name="kg"> kg</string>
+    <string name="set_products">Set Products</string>
+    <string name="total_price">Total price:</string>
+    <string name="status">Status:</string>
+    <string name="price">Price:</string>
+    <string name="gram">" gram"</string>
+    <string name="order">Order</string>
+    <string name="take_my_current_location">Take my current location</string>
+    <string name="please_take_your_shop_picture">Please take your shop picture</string>
+    <string name="enter_your_shop_s_details">Enter your shop details</string>
+    <string name="version">Version</string>
+</resources>
